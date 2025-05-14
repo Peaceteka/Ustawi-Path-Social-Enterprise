@@ -42,17 +42,17 @@ const Members = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedMember, setSelectedMember] = useState(null);
 
-  // Sample data - replace with actual API calls
+  // Sample data
   const [members, setMembers] = useState([
     {
       id: 'M001',
-      name: 'John Doe',
-      dob: '1990-05-15',
-      email: 'john@example.com',
-      occupation: 'Teacher',
-      phone: '+254 712345678',
-      nationalId: '12345678',
-      joinDate: '2023-01-15',
+      name: 'Brian Peace Teka',
+      dob: '2002-03-28',
+      email: 'peaceteka2@gmail.com',
+      occupation: 'Software Engineer',
+      phone: '+254 740127973',
+      nationalId: '39303165',
+      joinDate: '2025-01-15',
       status: 'active',
       contributionsTotal: 25000
     },
